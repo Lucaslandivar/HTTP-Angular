@@ -16,4 +16,5 @@ export class AppComponent {
   private errorServie = inject(ErrorService);
 
   error = this.errorServie.error;
+console.log("hola")
 }
